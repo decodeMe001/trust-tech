@@ -633,7 +633,7 @@ div#preloader {
     display: block;
     position: relative;
 }
-.about-text ul li a {
+.about-text ul li {
     font-size: 15px;
     color: #757b82;
     padding: 6px 0px 6px 35px;
@@ -642,9 +642,9 @@ div#preloader {
 .about-text li::after {
     position: absolute;
     left: 0px;
-    top: 10px;
-    content: "\e64c";
-    font-family: themify;
+    top: 5px;
+    content: "\f00c";
+    font-family: FontAwesome;
     width: 20px;
     height: 20px;
     line-height: 20px;
@@ -835,8 +835,8 @@ div#preloader {
     position: absolute;
     left: 0px;
     top: 10px;
-    content: "\e64c";
-    font-family: themify;
+    content: "\f00c";
+    font-family: FontAwesome;
     width: 20px;
     height: 20px;
     line-height: 20px;
@@ -997,7 +997,7 @@ div#preloader {
     content: "\e628";
     right: 40px;
     top: 0px;
-    font-family: themify;
+    font-family: FontAwesome;
     font-size: 20px;
     transition: 0.5s;
     width: 50px;
@@ -2111,7 +2111,7 @@ span.q-text {
     content: "\e649";
     right: 5px;
     top: 8px;
-    font-family: themify;
+    font-family: FontAwesome;
     color: #3d5368;
     font-size: 13px;
 }
@@ -2528,7 +2528,7 @@ span.email-notes{
 .left-menu ul li.active a::after,
 .left-menu ul li a:hover::after {
     content: "\e649";
-    font-family: themify;
+    font-family: FontAwesome;
     font-size: 12px;
     position: absolute;
     right: 0px;
@@ -2656,7 +2656,7 @@ span.email-notes{
     content: "\e64c";
     left: 0;
     top: 3px;
-    font-family: themify;
+    font-family: FontAwesome;
     color: #0c54ad;
     font-weight: 700;
 }
@@ -2985,12 +2985,12 @@ span.dolar {
     text-align: center;
     font-weight: 400;
 }
-.table-list li.check{
+.table-list li.ti-check{
     position: relative;
 }
-.table-list li.check::before {
-    content: "\e64c";
-    font-family: themify;
+.table-list li.ti-check::before {
+    content: "\f00c";
+    font-family: FontAwesome;
     font-size: 18px;
     position: absolute;
     left: 10%;
@@ -2998,9 +2998,9 @@ span.dolar {
     color: #0c54ad;
     font-weight: 300;
 }
-.table-list li.check.cross::before {
-    content: "\e646";
-    font-family: themify;
+.table-list li.ti-check.cross::before {
+    content: "\f00d";
+    font-family: FontAwesome;
     color: #FF5B5B;
 }
 .price-btn {
@@ -3131,11 +3131,11 @@ span.dolar {
     -webkit-box-pack: justify;
     justify-content: space-between;
 }
-.check-group {
+.ti-check-group {
     position: relative;
     margin: 10px 0px 20px;
 }
-.check-box{
+.ti-check-box{
     color: #444;
     font-weight: 300;
     letter-spacing: 0;
@@ -3147,7 +3147,7 @@ span.dolar {
     align-items: center;
     padding-left: 0;
 }
-.check-box-input {
+.ti-check-box-input {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -3210,7 +3210,7 @@ span.dolar {
     margin-top: 20px;
     font-weight: 600;
 }
-.signup-form .check-group {
+.signup-form .ti-check-group {
     position: relative;
     margin: 0px 0px 20px;
 }
@@ -3391,7 +3391,7 @@ span.dolar {
     color: #1AA15F;
     background:transparent;
 }
-.table-list li.check::before{
+.table-list li.ti-check::before{
     color:#1AA15F;
 }
 /*----------------------------------------*/
