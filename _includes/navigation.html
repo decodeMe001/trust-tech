@@ -1,0 +1,120 @@
+<div id="preloader"></div>
+<header class="header-one">
+    <!-- Start top bar -->
+    <div class="topbar-area fix hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-9 col-sm-9">
+                      <div class="topbar-left">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-envelope"></i> trusttechnology4@gmail.com</a></li>
+                            <li><a href="#"><i class="fa fa-phone-square"></i> +234-8060221416</a></li>
+                            <li><a href="#"><i class="fa fa-clock-o"></i> Mon - Fri: 08:00am - 05:00pm</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="top-social">
+                      <ul>
+                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End top bar -->
+    <!-- header-area start -->
+    <div id="sticker" class="header-area header-area-2 hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="logo">
+                        <a class="navbar-brand white-logo" href="/">
+                            <!-- <img src="{{ "/assets/img/logo/logo2.png" | absolute_url }}" alt=""> -->
+                            <h4 style="color:#fff;">Trust<span style="color:#1AA15F">Tech</span></h4>
+                        </a>
+                        <a class="navbar-brand black-logo" href="/">
+                            <h4 style="color:#000;">Trust<span style="color:#1AA15F">Tech</span></h4>
+                        </a>
+                    </div>
+                    <!-- logo end -->
+                </div>
+                <div class="col-md-9 col-sm-9">
+                    <div class="header-right-link">
+                        <!-- search option end -->
+                        <a class="s-menu" href="#pricing" data-target="#pricing" >Get Quote</a>
+                    </div>
+                    <!-- mainmenu start -->
+                    <nav class="navbar navbar-default">
+                        <div class="collapse navbar-collapse" id="navbar-example">
+                            <div class="main-menu">
+                                <ul class="nav navbar-nav navbar-right">
+                                  {% for item in site.data.navigation %}
+                                    <li>
+                                      <a class="pages" href="{{ item.link }}">
+                                        {{ item.name }}
+                                      </a>
+                                    </li>
+                                    <!-- <li><a class="pages" href="#"></a></li>
+                                    <li><a class="pages" href="#">Products</a>
+                                        <ul class="sub-menu">
+                                          <li><a href="project.html"> Single Phase Series A</a></li>
+                                          <li><a href="project-2.html">Single Phase Series B</a></li>
+                                          <li><a href="project-2.html">120AMPs Three phase</a></li>
+                                          <li><a href="single-project.html">125AMPs Three phase </a></li>
+                                        </ul>
+                                    </li>
+                                   <li><a href="contact.html">contacts</a></li> -->
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- mainmenu end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area end -->
+    <!-- mobile-menu-area start -->
+    <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-menu">
+                        <div class="logo">
+                            <!-- <img src="{{ "/assets/img/logo/logo2.png" | absolute_url }}" alt="" /> -->
+                            <h4 style="color:#000;"><a href="/">Trust<span style="color:#1AA15F">Tech</span></a></h4>
+                        </div>
+                        <nav id="dropdown">
+                            <ul>
+                              {% for item in site.data.navigation %}
+                                <li>
+                                  <a class="pages" href="{{ item.link }}">
+                                    {{ item.name }}
+                                  </a>
+                                </li>
+                                <!-- <li><a class="pages" href="#"></a></li>
+                                <li><a class="pages" href="#">Products</a>
+                                    <ul class="sub-menu">
+                                      <li><a href="project.html"> Single Phase Series A</a></li>
+                                      <li><a href="project-2.html">Single Phase Series B</a></li>
+                                      <li><a href="project-2.html">120AMPs Three phase</a></li>
+                                      <li><a href="single-project.html">125AMPs Three phase </a></li>
+                                    </ul>
+                                </li>
+                               <li><a href="contact.html">contacts</a></li> -->
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mobile-menu-area end -->
+</header>
