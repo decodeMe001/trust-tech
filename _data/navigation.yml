@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: About
-  link: /#/
-- name: Pricing
-  link: /#/
+  link: /#about
+- name: Services
+  link: /#services
 - name: Products
-  link: /#/
+  link: /#products
 - name: Contact
   link: /contact/

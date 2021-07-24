@@ -60,7 +60,7 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="copyright">
                         <p>
-                            Copyright © 2020
+                            Copyright © <span id="date"></span>
                             <a href="/">TrustTech</a> All Rights Reserved
                         </p>
                     </div>
@@ -69,3 +69,8 @@
         </div>
     </div>
 </footer>
+<script type="text/javascript">
+    let get_current_date = new Date().getFullYear();
+    let footer_date = document.getElementById("date")
+    footer_date.innerHTML = get_current_date;
+</script>
