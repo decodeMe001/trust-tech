@@ -612,7 +612,8 @@ div#preloader {
     border-radius: 2px;
 }
 .ready-btn:hover{
-    color: #0c54ad;
+    color: #fff;
+		border: 1px solid #fff;
     background: transparent;
     transition: all 0.4s ease 0s;
 }
